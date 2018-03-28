@@ -20,8 +20,8 @@ function initializeSpoiler(api) {
     actions: {
       insertSpoiler() {
         this.get("toolbarEvent").applySurround(
-          "[spoiler]",
-          "[/spoiler]",
+          "[gizli]",
+          "[/gizli]",
           "spoiler_text",
           { multiline: false }
         );
